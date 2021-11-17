@@ -1,0 +1,94 @@
+/* /*===============Style par défaut=================================*/
+
+* {
+	box-sizing : border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+}
+
+body {
+	background-color: Ivory;
+	margin: 0;
+	font-family : ;
+}
+
+/* /*===============HEADER=================================*/
+
+h1{
+	color: #ffc800;
+  width: 100%;
+	font-size: 35px;
+	font-family: fantasy;
+	text-align: center;
+}
+
+.form-div{
+	display: flex;
+	justify-content: center;
+}
+
+legend{
+	color: #CD853F;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: cursive;
+}
+
+/* /*===============FORMULAIR=================================*/
+
+fieldset{
+	width: 50%;
+	border-color: DimGray;
+	border-style: dashed;
+}
+
+form{
+	margin: 2em;
+}
+
+label{
+	font-family: fantasy;
+	color: #ffc800;
+	font-size: 1em;
+}
+
+input[type=text], textarea{
+ border: 1px solid #ccc;
+ border-radius: 4px;
+ margin-top: 6px;
+ margin-bottom: 16px;
+ margin-right: 0px;
+ margin-left: 0px;
+ resize: vertical;
+ width: 100%;
+ padding: 12px;
+}
+
+.button input{
+	font-size: 100%;
+	font-weight: bold;
+	font-family:cursive;
+ 	color: #CD853F;
+}
+
+.button input:hover{
+	color:  #8B4513;
+}
+
+/* /*===============FOOTER=================================*/
+
+footer{
+	margin-top: 5%;
+	padding: 0.5%;
+	background-color: black;
+}
+
+footer p{
+	color: white;
+	text-align: right;
+}
